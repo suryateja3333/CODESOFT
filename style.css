@@ -1,0 +1,190 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+    /* Set background image */
+    background-image: url('img.jpg');
+    /* Set background image to cover the entire body */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Set background attachment to fixed if you want the background to remain fixed while scrolling */
+    background-attachment: fixed;
+  
+  
+}
+
+/* Header styles */
+header {
+  color: black;
+  top:0px;
+  left:0px;
+  padding: 20px;
+}
+nav {
+  position: absolute;
+  top:0px;
+  right:0px;
+  color: black;
+  padding: 20px;
+}
+
+header h2 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+ 
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Content styles */
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  top:0px;
+  left:0px;
+  padding: 20px;
+}
+
+.content p {
+  text-align: justify;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+.social-icons img {
+  width: 40px; 
+  height: 40px;
+}
+.resume-button {
+  text-align: center;
+  margin-top: 50px; /* Adjust spacing as needed */
+}
+
+.resume-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #3498db; /* Button background color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button a:hover {
+  background-color: #2980b9; /* Change color on hover */
+}
+.contact-info {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 8px;
+}
+
+.contact-info li strong {
+  font-weight: bold;
+}
+.skills-section {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+
+.skill-category h3 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+
+.skill-category ul {
+  list-style: none;
+}
+
+.skill-category li {
+  margin-bottom: 6px;
+}
+.achievements-section {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for each achievement */
+.achievement {
+  margin-bottom: 20px;
+}
+
+/* Style for achievement headings */
+.achievement h3 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+.projects-section {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for each project */
+.project {
+  margin-bottom: 20px;
+}
+
+/* Style for project headings */
+.project h3 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
